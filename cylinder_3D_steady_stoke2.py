@@ -28,7 +28,7 @@ show = 0
 ## Domain and mesh #######################
 ##########################################
 
-mesh = Mesh("meshes/cylinder_fluid_smooth_changed.xml.gz")
+mesh = Mesh("meshes/cylinder.xml.gz")
 
 if(show):
      plot(mesh, title="Mesh_type?")
