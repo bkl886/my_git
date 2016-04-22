@@ -29,6 +29,7 @@ show = 0
 ##########################################
 
 mesh = Mesh("meshes/cylinder.xml.gz")
+#mesh = Mesh("meshes/cylinder_fluid_smooth_changed.xml.gz")
 
 if(show):
      plot(mesh, title="Mesh_type?")
